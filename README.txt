@@ -27,7 +27,7 @@ style.css                     -- cascading style sheets tiedosto, joka kuvaa kok
 Projekti on luotu koulu ja harrastus projektina ja tarkoitus olisi jatkaa projektia tulevaisuudessa.
 
 ### 3. Projektin sijainnit
-Github: https://github.com/FrostyByteFX/Projekti3
+Github: https://github.com/FrostyByteFX/Projekti_3
 Netlify: https://statslol.netlify.app
 
 Projektissa käytetään myös Amazon Web Services eli AWS S3 tietokantaa, johon olen ladannut kyseisen League of Legends pelin "Data Dragon" 

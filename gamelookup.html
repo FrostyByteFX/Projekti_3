@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="gamelookup.js"></script>
+
+    <title>SEARCH GAME</title>
+</head>
+<body id="gamelookup-body">
+  <video autoplay playsinline muted loop>
+    <source src="https://icons-lol.s3.eu-north-1.amazonaws.com/Background-animated/animated-freljord.webm" type="video/webm">
+  </video>
+    <div id="background">
+      <div class="summonerOtsikko">
+    <h1 id="Otsikko">SEARCH GAME</h1>
+    </div>
+    <div class="ui"><nav>
+      <ul class="unders">
+        <li class="navi"><a href="index.html" class="uinav">SEARCH PROFILE</a></li>
+        <li class="navi"><a href="gamelookup.html" class="uinav">SEARCH GAME</a></li>
+        <li class="navi"><a href="leaderboard.html" class="uinav">LEADERBOARD</a></li>
+      </ul>
+    </nav>
+  </div>    
+  <div class="summoner">
+    <div>
+      <input type="text" class="menu" id="summonernames" placeholder="Summoner name">
+      <script src="EventListenerGame.js"></script>
+            <select class="menu" id="region">
+              <option value="euw1">EUW</option>
+              <option value="eun1">EUNE</option>
+              <option value="na1">NA</option>
+              <option value="br1">BR</option>
+              <option value="jp1">JP</option>
+              <option value="kr">KR</option>
+              <option value="ru">RU</option>
+              <option value="tr">TR</option>
+              <option value="oc1">OCE</option>
+              <option value="la1">LAN</option>
+              <option value="la2">LAS</option>
+          </select>
+      <button type="button" class="menu" onclick="LoadGame (summonernames.value)">Submit</button>
+    </div>
+  </div>
+    <div id="summonerlookup" class="summoner"></div>
+    <div id="onko" class="summoner"></div>
+    <div id="game1" class="summoner"></div>
+    <div id="game2" class="summoner"></div>
+    <div id="game3" class="summoner"></div>
+    
+</div>
+</div>
+</body>
+</html>

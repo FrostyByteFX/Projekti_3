@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="showbutton.js"></script>
+    <script src="leaderboard.js"></script>
+
+
+
+    <title>SEARCH GAME</title>
+</head>
+<body id="leaderboard-body">
+    <div id="background">
+      <div class="summonerOtsikko">
+    <h1 id="Otsikko">LEADERBOARD</h1>
+    </div>
+    <div class="ui"><nav>
+      <ul class="unders">
+        <li class="navi"><a href="index.html" class="uinav">SEARCH PROFILE</a></li>
+        <li class="navi"><a href="gamelookup.html" class="uinav">SEARCH GAME</a></li>
+        <li class="navi"><a href="leaderboard.html" class="uinav">LEADERBOARD</a></li>
+      </ul> 
+    </nav>
+    <div id="addhereplayer">
+    <div id="Player-count"></div></div>
+  </div>    
+  <div class="summoner">
+    <div>
+            <select class="menuLeaderboard" id="region">
+              <option value="euw1">EUW - Europe West</option>
+              <option value="eun1">EUNE - Europe Nordic & East</option>
+              <option value="na1">NA - North America</option>
+              <option value="br1">BR - Brazil</option>
+              <option value="jp1">JP - Japan</option>
+              <option value="kr">KR - Republic of Korea </option>
+              <option value="ru">RU - Russia</option>
+              <option value="tr">TR - Turkey</option>
+              <option value="oc1">OCE - Oceania</option>
+              <option value="la1">LAN - Latin America North </option>
+              <option value="la2">LAS - Latin America South </option>
+          </select>
+      <button type="button" class="menu" onclick="loadLeaderboard()">Submit</button>
+      <button class="menu" id="showid">Show top 3</button>
+    </div></div>
+   </div>
+    <div id="Leaderboard-container">
+    <div id="addhereid">
+    <div id="Leaderboard" class="contentLeaderboard"></div></div>
+    <div id="onlytop3">
+    <div id="Leaderboardrest" class="contentLeaderboard"></div>
+      
+
+    </div>
+    
+    </div>
+</body>
+</html>

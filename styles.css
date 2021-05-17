@@ -1,0 +1,381 @@
+#index-body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #121212;   
+
+}
+#gamelookup-body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #121212;
+    
+
+}
+video {  
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+.unders {
+    padding: 20px;
+    width: 200px;
+    background-color: rgba(33, 33, 33, 50%);
+    border-radius: 8px;
+}
+  
+#leaderboard-body {
+    background-image: url("esports-worlds2017-art-7.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #121212;
+    
+
+}
+
+#query {
+        all: unset;
+        font: 16px system-ui;
+        color: #fff;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+  }
+#background {
+    height: 250px;
+    width: auto;
+}
+.menu {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.menuLeaderboard {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+#Otsikko {
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    float: left;
+    background-color: rgba(33, 33, 33, 50%);
+    border-radius: 8px;
+
+}
+.summoner {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 2px;
+    float: left;
+    width: 800px;
+    height: auto;
+    margin-left: 38%;
+}
+.contentsummoner {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 40px;
+    float: left;
+    width: 800px;
+    height: auto;
+}
+.contentLeaderboard {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.images {
+    margin-top: 40px;
+    margin-left: 40px;
+    float: left;
+
+}
+.image-r {
+    margin-top: 40px;
+    margin-right: 40px;
+    float: right;
+
+}
+.wins-style {
+    color: aquamarine;
+
+}
+.summonerOtsikko {
+    margin-left: 40%;
+
+
+}
+
+.ui {
+    position: fixed;
+    margin-top: 145px;
+    margin-left: 40px;
+    width: 290px;
+
+}
+.uinav {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    list-style-type: none;
+
+}
+.navi {
+    list-style-type: none;
+
+}
+.Bg-style {
+    float: left;
+    background-color: #212121;
+	width: 710px;
+	height: 310px;
+    color: #FFFFFF;
+	margin: 5px;
+}
+#Leaderboard-container {
+    margin-left: 20%;
+    height: 100%;
+
+}
+.left-bg {
+    float: left;
+    width: 400px;
+    height: 40px;
+
+}
+.right-bg {
+    float: right;
+    width: 400px;
+    height: 40px;
+
+
+}
+.pstyle {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 2px;
+    float: left;
+
+}
+.rankstyle {
+    font-size: 24px;
+    padding-right: 30px;
+    color: #FFFFFF;
+    float: left;
+    margin: 2px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+.pleaderboard {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 2px;
+    margin-top: 6px;
+    float: left;
+
+}
+.pstyler {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-top: 5px;
+    float: right;
+
+}
+.content {
+    height: 350px;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 0%;
+    display: none;
+    background: rgb(33, 33, 33); /* Jos nettiselain ei tue opacity background tyylissä */
+    background: rgba(33, 33, 33, 70%); /* 70% on Opacity tämä siksi ettei teksti ja kuvat myös hälvene .content sisällä */
+
+}
+.r1Leaderboard-bg {
+    height: 70px;
+    width: 890px;
+    margin-left: 35px;
+    margin-top: 0px;
+    background-color: #212121;
+
+}
+.r1left-bg {
+    float: left;
+    width: 445px;
+    height: 70px;
+
+
+}
+.r1right-bg {
+    float: right;
+    width: 445px;
+    height: 70px;
+
+}
+.r1rankstyle {
+    font-size: 34px;
+    padding-right: 30px;
+    color: #FFD700;
+    float: left;
+    margin: 2px;
+    margin-top: 14px;
+    margin-left: 20px;
+    text-decoration: underline;
+
+}
+.r1pleaderboard {
+    font-size: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 2px;
+    margin-top: 20px;
+    float: left;
+
+}
+.r1pstyler {
+    font-size: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+
+}
+.r2Leaderboard-bg {
+    height: 60px;
+    width: 860px;
+    margin-left: 50px;
+    margin-top: 8px;
+    background-color: #212121;
+
+}
+.r2left-bg {
+    float: left;
+    width: 430px;
+    height: 60px;
+
+
+}
+.r2right-bg {
+    float: right;
+    width: 430px;
+    height: 60px;
+
+}
+.r2rankstyle {
+    font-size: 28px;
+    padding-right: 30px;
+    color: #b6ac29;
+    float: left;
+    margin: 2px;
+    margin-top: 12px;
+    margin-left: 12px;
+
+}
+.r2pleaderboard {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 2px;
+    margin-top: 18px;
+    float: left;
+
+}
+.r2pstyler {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 24px;
+    margin-top: 18px;
+    float: right;
+
+}
+.r3Leaderboard-bg {
+    height: 50px;
+    width: 830px;
+    margin-left: 65px;
+    margin-top: 7px;
+    background-color: #212121;
+
+}
+.r3left-bg {
+    float: left;
+    width: 415px;
+    height: 50px;
+
+
+}
+.r3right-bg {
+    float: right;
+    width: 415px;
+    height: 50px;
+
+}
+.r3rankstyle {
+    font-size: 26px;
+    padding-right: 30px;
+    color: #b6ac29;
+    float: left;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.r3pleaderboard {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin: 2px;
+    margin-top: 12px;
+    float: left;
+
+}
+.r3pstyler {
+    font-size: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 18px;
+    margin-top: 10px;
+    float: right;
+
+}
+.Leaderboard-bg {
+    height: 40px;
+    width: 800px;
+    margin-left: 80px;
+    margin-top: 6px;
+    background-color: #212121;
+}
+.Leaderboardbutton {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}

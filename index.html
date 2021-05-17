@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="summonername.js"></script>
+    
+
+    <title>SEARCH SUMMONER PROFILE</title>
+</head>
+<body id="index-body">
+  <video autoplay playsinline muted loop>
+    <source src="https://icons-lol.s3.eu-north-1.amazonaws.com/Background-animated/animated-demacia.webm" type="video/webm">
+  </video>
+    <div id="background">
+      <div class="summonerOtsikko">
+    <h1 id="Otsikko">SEARCH PROFILE</h1>
+      </div>
+    <div class="ui"><nav>
+      <ul class="unders">
+        <li class="navi"><a href="index.html" class="uinav">SEARCH PROFILE</a></li>
+        <li class="navi"><a href="gamelookup.html" class="uinav">SEARCH GAME</a></li>
+        <li class="navi"><a href="leaderboard.html" class="uinav">LEADERBOARD</a></li>
+      </ul>
+    </nav>
+  </div>
+    <div class="summoner">
+      <div>
+        <input type="text" class="menu" id="summonername" placeholder="Summoner name">
+        <script src="EventListenerSummoner.js"></script>
+        <select class="menu" id="region">
+            <option value="euw1">EUW</option>
+            <option value="eun1">EUNE</option>
+            <option value="na1">NA</option>
+            <option value="br1">BR</option>
+            <option value="jp1">JP</option>
+            <option value="kr">KR</option>
+            <option value="ru">RU</option>
+            <option value="tr">TR</option>
+            <option value="oc1">OCE</option>
+            <option value="la1">LAN</option>
+            <option value="la2">LAS</option>
+        </select>
+        <button type="button" class="menu" onclick="LoadSummoner (summonername.value)">Submit</button>
+        </select>
+      </div>
+    </div></div>
+    <div>
+    <div id="contenthere"class="content">
+    <img id="icon" class= "images" src="">
+    <img id="rankicon" class= "image-r" src="">
+    <div id="summonernames" class="contentsummoner"></div>
+    <div id="summonerlevel" class="contentsummoner"></div>
+    <div id="rank" class="contentsummoner"></div>
+    <div id="lp" class="contentsummoner"></div>
+    <div id="wr" class="contentsummoner"></div>
+  </div>
+  </div>
+</div>
+</body>
+</html>

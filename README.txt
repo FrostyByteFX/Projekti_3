@@ -24,7 +24,8 @@ showbutton.js                 -- sisältää funktion, joka toggle nappulalla le
 style.css                     -- cascading style sheets tiedosto, joka kuvaa koko html tyylin ja sivuston ulkonäon.
 
 ### 2. Projektin tarkoitus
-Projekti on luotu koulu ja harrastus projektina ja tarkoitus olisi jatkaa projektia tulevaisuudessa.
+Projekti on luotu koulu ja harrastus projektina ja tarkoitus olisi jatkaa projektia tulevaisuudessa. SIVU TOIMII VAIN "Moesif CORS" tai muun vastaavan
+CORSin poistamisen avulla! Myöhemmin Node.js serveri ympäristö korjaa nämä ongelmat!
 
 ### 3. Projektin sijainnit
 Github: https://github.com/FrostyByteFX/Projekti_3

@@ -42,6 +42,14 @@ sivustolla ei olisi APIKEY näkyvissä julkisesti. Riot APIKEY on voimassa vain 
 tarkoitus olisi luoda Node.js avulla serveri, joka hoitaisi API kyselyt Riot Games API:hin ja nettisivu tekisi nämä kyselyt
 omalle Node.js serverille, joka ne hoitaisi. APIKEY tulisi olla myös piilotettuna koodista piilotetussa .env tiedostossa.
 
+! 
+Jos index sivua haluaa testata voi ensiksi etsiä leaderboard sivulta, jonkun pelaajan nimen ja kunhan varmistaa, että region on sama
+niin voi hakea kyseisen pelaajan profiili tiedot (Esimerkiksi voi hakea pelaajaa "Long time no see" EUW regionilta). 
+Olisin halunnut tehdä nappulan suoraan, joka näyttäisi pelaajan tiedot, mutta en ehtinyt kyseistä toiminnallisuutta saada toimimaan 
+tähän versioon. Myös Index ja gamelookup sivut ovat joskus hitaita, koska niissä on video elementtejä jatkossa haluisin laittaa nappulan, 
+josta voisi laittaa videon päälle jos haluaa, mutta muuten tausta olisi kuva. Myäs css tiedosto on todella sekava.
+!
+
 ### 5. Tekijä
 Tämän projektin on luonut Ville Vierros
 Viimeiseksi päivitetty: 18:43:02 UTC Maanantai, 17 Toukokuuta 2021

@@ -1,7 +1,7 @@
 function loadLeaderboard() {
 $(document).ready(function(){
     var region = document.getElementById("region").value;
-    const APIKEY = "RGAPI-a8f9e85a-a3bd-4497-82ba-bcb2681cdfa1"; //täytyy päivittää 24h välein kunnes saa Node.js serverin hoitamaan API kyselyt ja APIKEY on piilossa .env tiedostossa
+    const APIKEY = "RGAPI-9b808ada-4523-43c7-a063-92048821f22b"; //täytyy päivittää 24h välein kunnes saa Node.js serverin hoitamaan API kyselyt ja APIKEY on piilossa .env tiedostossa
                                                                 //eikä näkyvissä käyttäjälle sivustolla.
     var url = "https://"+region+".api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5?api_key="+APIKEY;
     /*

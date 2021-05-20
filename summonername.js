@@ -4,7 +4,7 @@ var region = document.getElementById("region").value;
 Region tulee käyttäjän valitseman alueen perusteella ja .value ottaa option tagissä määritetyn value arvon, joka on siis eri kuin käyttäjän näkemä teksti dropdown valikossa.
 Regioneita on League of Legends tai LoL pelissä monia ja peliä pelaavat yleensä tietävät oman regionin nimensä lyhenteen avulla esimerkiksi EUW on Europe West. 
 */
-const APIKEY = "RGAPI-982a6cc9-6ca5-4c33-8c75-868792ca6436";
+const APIKEY = "RGAPI-6503490f-5db6-48a7-868e-97b87cb97f3b";
 /*
 APIKEY täytyy päivittää 24h välein niin kauan kun sivustosta ei ole ilmoitettu Riot Games yhtiölle. Tulevaisuudessa tekisin node.js avulla serverin sivustolle, joka hoitaisi 
 kaikki Riot Games API tietokannasta pyydetyt haut ja APIKEY olisi talletettuna johonkin .env tiedostoon, jossa olisi piilotettuna APIKEY enviroment variablena eli APIKEY ei olisi

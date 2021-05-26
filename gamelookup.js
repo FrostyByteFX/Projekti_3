@@ -1,6 +1,6 @@
 function LoadGame (summonername) {
 var region = document.getElementById("region").value;
-const APIKEY = "RGAPI-1fe9fa48-1ca9-4769-abae-5f9e5d087050";
+const APIKEY = "RGAPI-119cc270-73cb-4c00-98d2-20f2005e9208";
 var url = "https://"+region+".api.riotgames.com/lol/summoner/v4/summoners/by-name/"+summonername+"?api_key="+APIKEY;
 
 
